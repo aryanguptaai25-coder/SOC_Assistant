@@ -1,0 +1,8 @@
+# Ignore data and database files
+*.csv
+*.duckdb
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+.venv/
