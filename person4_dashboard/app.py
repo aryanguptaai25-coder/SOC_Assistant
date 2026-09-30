@@ -13,7 +13,7 @@ findings_path = os.path.join(soc_root, "master_all_findings.csv")
 scores_path = os.path.join(soc_root, "person3_negative_space", "entity_risk_scores.csv")
 db_path = os.path.join(script_dir, "audit_log.sqlite")
 
-st.title("🛡️ SAT-SA: Supervisory Analytics Tool for SOC Assessment")
+st.title(" SAT-SA: Supervisory Analytics Tool for SOC Assessment")
 st.markdown("### Ranked Review Queue & Execution Gap Analysis")
 
 # Load Data
@@ -32,7 +32,7 @@ if df_findings is None:
     st.stop()
 
 # --- TAB 1: Entity Risk Ranking ---
-tab1, tab2, tab3 = st.tabs(["📊 Entity Risk Ranking", "🔍 Execution Gaps Review", "📝 Audit Log"])
+tab1, tab2, tab3 = st.tabs(["Entity Risk Ranking", " Execution Gaps Review", " Audit Log"])
 
 with tab1:
     st.subheader("Organizations Ranked by Risk Score")
